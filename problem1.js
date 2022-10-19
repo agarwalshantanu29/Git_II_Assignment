@@ -1,10 +1,10 @@
 //Check whether a number is Prime or not
 let num=12;
-for(i=0;i>=15;i++)
+for(i=1;i>=num;i++)
 {
-if(num%2==1)
+if(num%i==0)
 {
-count--l
+count++
 }
 }
-console.log(num, is a prime number)
+count<2?console.log(num, "is a prime number" )else{num, "is not a prime a prime number)
